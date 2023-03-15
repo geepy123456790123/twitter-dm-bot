@@ -41,7 +41,7 @@ const GenerateMessage = name => {
   ];
   const d = new Date();
   const dayName = days[d.getDay()];
-  return `Hi ${name} Thanks for following me. I am Chiamaka, a lawyer but I love tech. I tweet tech, love and life. Follow me on my journey. \n Happy ${dayName} 😊😊 `; // your message
+  return `Hey ${name}, thanks for following Ascent Chiropractic! If you're in the greater Milwaukee area, we’d LOVE to help you get started at our office. This month only we're doing something CRAZY by giving away 30 new patient vouchers covering the entire first visit to our office – normally $240 – for just $47! Just visit https://ascentchiropractic.com/specialoffer to sign up. Hurry, we book up fast! \n Have a great ${dayName}! `; // your message
   // My message   return `Hi ${name} Thanks for being a part of my social media network. I'am the @PicsrushE founder,A new Online Image Editor completely with web technologies,I'm also a reactjs developer and medium blogger.\n Happy to discuss anytime 😊  \n Happy ${dayName} 😊😊 `;
 };
 
